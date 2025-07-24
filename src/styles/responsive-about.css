@@ -1,0 +1,118 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-hero {
+  background: linear-gradient(135deg, #00d09c, #007965);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.about-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-content {
+  flex: 1;
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  color: #007965;
+  margin-top: 2rem;
+}
+
+.about-content p {
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-content li {
+  background: #fff;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 992px) {
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-hero p {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  .about-content {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .about-content {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .about-hero p {
+    font-size: 0.95rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-content p,
+  .about-content li {
+    font-size: 0.95rem;
+  }
+}
