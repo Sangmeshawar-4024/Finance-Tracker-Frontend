@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://finance-tracker-backend-a3xu.onrender.com/api/:path*"
+      "destination": "https://finance-tracker-backend-xi.vercel.app/api/:path*"
     }
   ]
 }
